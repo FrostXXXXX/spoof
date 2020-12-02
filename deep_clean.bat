@@ -1,6 +1,6 @@
-net session >nul 2>nul&if errorlevel 1  Batch_Admin "%~0" %*
 @ECHO OFF
 TITLE New and improved deep clean
+color b
 
 taskkill /f /im epicgameslauncher.exe
 taskkill /f /im FortniteClient-Win64-Shipping_EAC.exe
@@ -7404,6 +7404,7 @@ reg delete "HKEY_LOCAL_MACHINE\Software\Epic Games" /f
 reg delete "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control" /v SystemStartOptions /f
 reg delete "HKEY_USERS\S-1-5-21-2097722829-2509645790-3642206209-1001\Software\Epic Games" /f
 
+color a
 reg delete "HKLM\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PackageRepository\Packages\Microsoft.XboxGameOverlay_1.41.24001.0_neutral_split.scale-100_8wekyb3d8bbwe" /f
 reg delete "HKLM\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PackageRepository\Packages\Microsoft.XboxGameOverlay_1.41.24001.0_neutral_~_8wekyb3d8bbwe" /f
 reg delete "HKLM\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\PackageRepository\Packages\Microsoft.XboxGameOverlay_1.41.24001.0_x64__8wekyb3d8bbwe" /f
