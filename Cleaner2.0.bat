@@ -6264,4 +6264,4 @@ Del C:\Windows.old.000\Users\ %username%\Local Settings\FortniteGame\Saved\Persi
 Del C:\Windows.old.000\Users%username%\Local Settings\FortniteGame\Saved\PersistentDownloadDel\CMS\Dels\C28FF1DE0C661DAF01E118A30B3F21B897A7A6E2\EB595625E08C501F5484D4F4FE7EB7A3D7AD7582
 Del C:\Windows.old.000\Users\ %username%\Local Settings\FortniteGame\Saved\LMS
 Del C:\Windows.old.000\Users\ %username%\Local Settings\FortniteGame\Saved\LMS\Manifest.sav
-
+exit
